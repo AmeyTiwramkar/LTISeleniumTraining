@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5161" started-at="2021-11-20T11:37:26 IST" finished-at="2021-11-20T11:37:31 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5161" started-at="2021-11-20T11:37:26 IST" finished-at="2021-11-20T11:37:31 IST">
+      <class name="testNgDemo.codility1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testNgDemo.codility1@2353b3e6]" name="setup" is-config="true" duration-ms="4855" started-at="2021-11-20T11:37:26 IST" finished-at="2021-11-20T11:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="e()[pri:0, instance:testNgDemo.codility1@2353b3e6]" name="e" duration-ms="232" started-at="2021-11-20T11:37:31 IST" finished-at="2021-11-20T11:37:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+      </class> <!-- testNgDemo.codility1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

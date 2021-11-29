@@ -16,9 +16,9 @@ public class LoginPage extends TestBase {
 	public String validateLogin() throws InterruptedException {
 		
 		driver.findElement(By.id("nav-link-accountList")).click();
-		driver.findElement(By.id("ap_email")).sendKeys("9226595335");
+		driver.findElement(By.id("ap_email")).sendKeys("");
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("Amey@1999");
+		driver.findElement(By.id("ap_password")).sendKeys("");
 		driver.findElement(By.id("auth-signin-button")).click();
 		
 		Thread.sleep(3000);

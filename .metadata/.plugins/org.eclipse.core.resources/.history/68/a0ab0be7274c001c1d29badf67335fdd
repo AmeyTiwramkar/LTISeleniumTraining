@@ -1,0 +1,7 @@
+Feature: Validate Login Func of Orange HRM.
+Scenario: Validate login with valid credentials
+
+Given user is on login page
+When user enters correct username 
+And user enters correct password
+Then the users will be logged in successfully

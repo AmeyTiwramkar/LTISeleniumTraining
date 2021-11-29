@@ -1,0 +1,131 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-23T11:04:40.268Z",
+        "line": 5,
+        "name": "Validate Login with valid credentials",
+        "description": "",
+        "id": "validate-orangehrm-login-functionality;validate-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4593000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters correct username",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_enters_correct_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User enters correct password",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_enters_correct_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be logged in successfully",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_should_be_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-23T11:04:45.675Z",
+        "line": 17,
+        "name": "Validate Login with Invalid credentials",
+        "description": "",
+        "id": "validate-orangehrm-login-functionality;validate-login-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4946000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters incorrect username",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_enters_incorrect_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters incorrect password",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_enters_incorrect_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should not be allowed to logged in",
+            "match": {
+              "location": "StepDefination.LoginPageSetDef.user_should_not_be_allowed_to_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate OrangeHRM Login Functionality",
+    "description": "",
+    "id": "validate-orangehrm-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/LoginPage.feature",
+    "tags": []
+  }
+]

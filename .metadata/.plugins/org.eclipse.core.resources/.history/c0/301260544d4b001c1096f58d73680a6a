@@ -1,0 +1,45 @@
+package com.testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.base.TestBase;
+import com.pages.LoginPage;
+
+public class LoginPageTest extends TestBase{
+	
+	
+LoginPage lp;
+	
+	
+	@BeforeMethod
+	public void setup() {
+		initialization();
+		lp = new LoginPage();
+	}
+	
+	@Test()
+	public void validateTitleTest() {
+		String expectedTitle = "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in";
+		String actualTitle = lp.validateTitle();
+		Assert.assertEquals(actualTitle, expectedTitle);
+
+}
+	
+	@Test
+	public void validateLogin() throws InterruptedException {
+		String expectedurl="https://www.amazon.in/ap/signin";   
+		String actualurl=lp.validateLogin();
+		Assert.assertEquals(actualurl, expectedurl);
+		
+		
+	}
+	
+//	@AfterMethod
+//	public void close1() {
+//		close();
+//
+//	}
+}

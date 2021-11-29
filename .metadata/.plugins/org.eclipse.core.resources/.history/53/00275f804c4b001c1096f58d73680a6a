@@ -1,0 +1,25 @@
+package com.pages;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.BeforeMethod;
+
+import com.base.TestBase;
+
+public class LoginPage extends TestBase {
+
+	public String validateTitle() {
+
+		return driver.getTitle();
+	}
+	
+	public String validateLogin() {
+		
+		driver.findElement(By.id("nav-link-accountList")).click();
+		driver.findElement(By.id("ap_email")).sendKeys("9226595335");
+		driver.findElement(By.id("continue")).click();
+		driver.findElement(By.id("ap_password")).sendKeys("Amey@1999");
+		return driver.getCurrentUrl();
+		
+		
+	}
+}

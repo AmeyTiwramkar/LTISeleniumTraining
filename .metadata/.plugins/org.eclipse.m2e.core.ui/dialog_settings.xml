@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Java Programs\bddframework"/>
+			<item value="C:\Java Programs\seleniumpractice"/>
+			<item value="C:\Java Programs\Selenium\SeleniumProject\src\main\java"/>
+			<item value="C:\Java Programs\Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="APITESTING.APITESTING"/>
+			<item value="FrameworkBDD.FrameworkBDD"/>
+			<item value="BDDframework12.BDDframework12"/>
+			<item value="bddframework.bddframework"/>
+			<item value="seleniumpracticeamz.seleniumpracticeamz"/>
+			<item value="seleniumpractice.li"/>
+			<item value="seleniumpractice.seleniumpractice"/>
+			<item value="seleniumtestngframework.seleniumtestngframework"/>
+			<item value="LTI_Selenium1.SeleniumProject"/>
+			<item value="LTI_Selenium.SeleniumProject1"/>
+		</list>
+		<list key="groupId">
+			<item value="APITESTING"/>
+			<item value="FrameworkBDD"/>
+			<item value="BDDframework12"/>
+			<item value="bddframework"/>
+			<item value="seleniumpracticeamz"/>
+			<item value="seleniumpractice"/>
+			<item value="seleniumtestngframework"/>
+			<item value="LTI_Selenium1"/>
+			<item value="LTI_Selenium"/>
+		</list>
+		<list key="artifactId">
+			<item value="APITESTING"/>
+			<item value="FrameworkBDD"/>
+			<item value="BDDframework12"/>
+			<item value="bddframework"/>
+			<item value="seleniumpracticeamz"/>
+			<item value="li"/>
+			<item value="seleniumpractice"/>
+			<item value="seleniumtestngframework"/>
+			<item value="SeleniumProject"/>
+			<item value="SeleniumProject1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

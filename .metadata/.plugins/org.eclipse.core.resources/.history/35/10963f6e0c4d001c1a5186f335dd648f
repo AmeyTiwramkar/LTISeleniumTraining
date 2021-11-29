@@ -1,0 +1,27 @@
+package APITesting;
+
+import java.util.HashMap;
+
+import java.util.Map;
+
+import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
+
+public class Post_API_Test {
+	
+	
+	@Test
+	public void post_Api() {
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("name", "Amey");
+		map.put("Job","psc");
+		System.out.println("Printing map"+map);
+		
+		JSONObject requestBody=new JSONObject(map);
+		System.out.println("Printing Request Body"+requestBody);
+		System.out.println("Printing Request Body as string"+requestBody.toJSONString());
+		
+		
+	}
+
+}
